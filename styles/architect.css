@@ -74,7 +74,8 @@ nav li a {
 }
 
 /* main style */
-main {
+main,
+footer {
     max-width: 1440px;
     margin: 70px auto;
 }
@@ -189,7 +190,16 @@ main {
     align-items: center;
     gap: 40px;
 }
+/* footer section */
 
+footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 40px 0;
+    color:  #424242;
+    font-size: 1.25rem;
+}
 
 /* responsive media queries */
 
